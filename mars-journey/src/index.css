@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-space-900: #020617;
+  --color-space-800: #0f172a;
+  --color-mars-500: #c1440e;
+  --color-mars-400: #e77d11;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--color-space-900);
+  color: white;
+  overflow-x: hidden;
+}
