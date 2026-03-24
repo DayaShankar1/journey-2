@@ -180,7 +180,6 @@ function StandardModal({ data, onClose }: { data: any, onClose: () => void }) {
 function JourneyScrollModal({ onClose }: { onClose: () => void }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [frame, setFrame] = useState(1);
-  const [imagesLoaded, setImagesLoaded] = useState(false);
 
   // We are tracking scroll purely within this modal's overflow container
   const { scrollYProgress } = useScroll({ container: containerRef });
