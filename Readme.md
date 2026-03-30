@@ -42,6 +42,6 @@ Human colony
 
 🎯 Section 6: Conclusion
 “Future of Humanity”
-CTA: Explore more.
+CTA: Explore more..
 
 
